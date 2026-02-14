@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ㅤ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Oi&family=Rubik+Marker+Hatch&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Tiny5&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Confetti overlay (fixed) -->
+    <div id="confetti-overlay" style="display: none; transform: translateY(-50px);"></div>
+
+    <div id="sections-container">
+        <section id="section0" class="section">
+            <div class="content-card">
+                <h1 class="cool-font" style="margin-bottom: 0;">
+                    Приветики <img class="emoji" src="https://media.tenor.com/oRDA8Dw2hu0AAAAj/t-teehee-teehe-giggled.gif" alt="emoji">
+                </h1>
+                <div class="button-group">
+                    <button class="btn next-btn btn-color-black" data-target="2">
+                        Привет!!1!
+                    </button>
+                    <button class="btn next-btn btn-color-purple" onclick="window.location.href = 'https://www.youtube.com/watch?v=riLhItsrkRw'">
+                        Пошел нахуй
+                        <img class="emoji" src="https://media.tenor.com/w2HShG6EI4oAAAAj/nerd.gif" alt="emoji">
+                    </button>
+                </div>
+                <div class="stickers" style="font-weight: black;">
+                    <img data-sound="sparkle" src="https://media.tenor.com/Mff-cxe6cCYAAAAj/kaedehara-kazuha-kazuha.gif" class="sticker sticker-center" alt="sticker">
+                </div>
+            </div>
+        </section>
+
+        <section id="section1" class="section" data-music="free-lofi">
+            <div class="content-card">
+                <h1>
+                    <img class="emoji" src="https://media.tenor.com/AgC6sh36utEAAAAi/emoji-durr.gif" alt="emoji">
+                    Будешь моей валентинкой?
+                    <img class="emoji" src="https://media.tenor.com/WkkHhQ1dR2gAAAAj/anime-blue-archive.gif" alt="emoji">
+                </h1>
+                <div class="button-group">
+                    <button id="yesBtn" class="btn yes">Да</button>
+                    <button id="noBtn" class="btn no">Нет</button>
+                </div>
+                <div class="stickers">
+                    <img data-sound="woah" src="https://media.tenor.com/VBrtDZ6kNyAAAAAj/toro-inoue-pixel.gif" class="sticker sticker-left" alt="sticker">
+                    </div>
+                <div class="stickers">
+                    <img data-sound="kitty" src="https://media.tenor.com/NrZ8LGPbgcQAAAAj/cat-wobble.gif" class="sticker sticker-center" alt="sticker">
+                </div>
+                <div class="stickers">
+                    <img data-sound="kiss" src="https://cdn.discordapp.com/stickers/1459338179583807581.png?size=512&lossless=true" class="sticker sticker-right" alt="sticker">
+                </div>
+            </div>
+        </section>
+        <section id="section2" class="section" data-music="free-lofi">
+            <div class="content-card">
+                <h2 class="cool-font">
+                    Подожди..
+                    <img class="emoji" src="https://media.tenor.com/547b1u_eJiwAAAAj/emoji-drool.gif" alt="emoji">
+                </h2>
+                <p>
+                    Давай проверим, хорошо ли ты меня знаешь.<br>
+                    Ведь какой смысл быть с человеком, который тебя не понимает?
+                </p>
+                <p>
+                    Пройди небольшой тест, получи призы и докажи, что мы созданы друг для друга.
+                    <img src="https://media.tenor.com/5eYihvamflQAAAAi/emoji-cute.gif" class="emoji small" alt="emoji">
+                </p>
+                <div class="button-group">
+                    <button class="btn next-btn btn-color-pink" data-target="4" onclick="playSound('click.mp3', 0.5)">
+                        Давай
+                        <img class="emoji" src="https://media.tenor.com/hbRxg79sfJUAAAAi/nodcat.gif" alt="emoji">
+                    </button>
+                    <button class="btn next-btn btn-color-black" onclick="window.location.href = 'https://adryd.co/wits.mp4'">
+                        Не
+                    </button>
+                </div>
+                <div class="stickers">
+                    <img data-sound="sparkle" src="https://media.tenor.com/tOWcDhTzt-QAAAAj/rui.gif" class="sticker sticker-left" alt="sticker">
+                </div>
+            </div>
+        </section>
+
+        <section id="section3" class="section test-section" data-music="kahoot">
+            <div id="test-container" class="test-container">
+                <div id="test-option-left" class="test-option test-option-left">
+                    <div class="option-label">Левый вариант</div>
+                </div>
+                <div id="test-option-right" class="test-option test-option-right">
+                    <div class="option-label">Правый вариант</div>
+                </div>
+                <div class="test-divider">
+                    <div class="divider-circle">
+                        <span>ИЛИ</span>
+                    </div>
+                </div>
+                <div class="stickers" id="test-1-sticker-layer">
+                    <img id="test-1-sticker" data-sound="sparkle" src="" class="sticker sticker-center" alt="sticker">
+                </div>
+            </div>
+        </section>
+
+        <section id="section4" class="section test-section" data-music="wont-let-go">
+            <div id="test-container-hard" class="test-container">
+                <div id="test-option-left-hard" class="test-option test-option-left">
+                    <div class="option-label">Левый вариант</div>
+                </div>
+                <div id="test-option-right-hard" class="test-option test-option-right">
+                    <div class="option-label">Правый вариант</div>
+                </div>
+                <div class="test-divider">
+                    <div class="divider-circle">
+                        <span>ИЛИ</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section5" class="section" data-music="free-lofi">
+            <div class="content-card">
+                <h2>
+                    <img class="emoji" src="https://media.tenor.com/AgC6sh36utEAAAAi/emoji-durr.gif" alt="emoji">
+                    Ты набрала <span id="final-score-counter">25</span>из 25 очков
+                    <img class="emoji" src="https://media.tenor.com/AgC6sh36utEAAAAi/emoji-durr.gif" alt="emoji">
+                </h2>
+                <p>Чтобы получить призы, введи пароль:</p>
+                <div class="password-container" 
+                    data-correct-password="пароль" 
+                    data-next-section="6">
+                    <input type="password" id="password-input" class="password-input" placeholder="Введи пароль">
+                    <button id="password-submit" class="btn password-btn">Подтвердить</button>
+                    <div id="password-message" class="password-message"></div>
+                </div>
+                <div class="stickers" id="test-1-sticker-layer">
+                    <img id="test-1-sticker" data-sound="kiss" src="https://cdn.discordapp.com/stickers/1464123108217847933.png?size=512&lossless=true" class="sticker sticker-left" alt="sticker">
+                </div>
+                <div class="stickers" id="test-1-sticker-layer">
+                    <img id="test-1-sticker" data-sound="kiss" src="https://media.tenor.com/1RPuXGj5r7YAAAAj/meowbah-meowbahh.gif" class="sticker sticker-right" alt="sticker">
+                </div>
+            </div>
+        </section>
+
+        <section id="section6" class="section" data-music="elevator">
+            <div class="content-card">
+                <h1 class="cooler-font">
+                    <img class="emoji" src="https://media.tenor.com/tF-wox0zbggAAAAi/pixel-pixelart.gif" alt="emoji">
+                    <img class="emoji section6-h1-break-left" src="https://media.tenor.com/opNYZ0ZT338AAAAi/potz-potatoz.gif" alt="emoji">
+                    TIME TO SPEND!
+                    <img class="emoji section6-h1-break-right" src="https://media.tenor.com/l6BNQyeZ1e8AAAAi/bits-8bits.gif" alt="emoji">
+                    <img class="emoji" src="https://media.tenor.com/pdMFT04xpLcAAAAi/dog-tail-wagging-small-dog.gif" alt="emoji">
+                </h1>
+                <p class="cool-font">
+                    <img class="emoji coin" src="https://media.tenor.com/Vl6iJkR2IzMAAAAi/memecoin.gif" alt="emoji">
+                    <span id="money-counter" class="pixel-font">500</span>
+                    <img class="emoji coin" src="https://media.tenor.com/Vl6iJkR2IzMAAAAi/memecoin.gif" alt="emoji">
+                </p>
+                <div class="shop-grid"></div>
+                <div class="button-group">
+                    <button class="btn next-btn btn-color-yellow" data-target="8" onclick="playSound('coins.mp3', 0.5)">
+                        Завершить Покупки
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="section7" class="section" data-music="free-lofi">
+            <div class="content-card">
+                <h2>
+                    <img class="emoji" src="https://media.tenor.com/p4Sdvqt3j2UAAAAi/kitty-hi.gif" alt="emoji">
+                    Завершение
+                    <img class="emoji" src="https://media.tenor.com/wYWU7LaRoRUAAAAi/cat-cat-bounce.gif" alt="emoji">
+                </h2>
+                <p>
+                    Ты долистала до конца! Теперь можно скролить вручную.<br>
+                    Увидимся в кото-кафе.
+                </p>
+                <a href="https://yandex.ru/profile/3629540659?lang=en&no-distribution=1&view-state=mini&source=wizbiz_new_map_single">
+                    <img id="map" src="https://cdn.discordapp.com/attachments/1229518358022717594/1472286174818209986/image.png?ex=699204d9&is=6990b359&hm=91c58c7cbf5ec045d7ec3d32e3c7b2635a43f3d6173704b15bb8736e4aca2cd1&" alt="map">
+                </a>
+                <div class="stickers">
+                    <img data-sound="woah" src="https://media.tenor.com/VBrtDZ6kNyAAAAAj/toro-inoue-pixel.gif" class="sticker sticker-left" alt="sticker">
+                    </div>
+                <div class="stickers">
+                    <img data-sound="kitty" src="https://media.tenor.com/2QMQO2_3EWEAAAAi/kitty-hello-hi-kitty.gif" class="sticker sticker-center round" alt="sticker">
+                </div>
+                <div class="stickers">
+                    <img data-sound="kiss" src="https://media.tenor.com/bMgp0wBmbn8AAAAi/sticker-mygo-sticker-mygo-nyamu.gif" class="sticker sticker-right" alt="sticker">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts разделены по функционалу -->
+    <script src="scripts/scroll-manager.js"></script>
+    <script src="scripts/confetti.js"></script>
+    <script src="scripts/buttons.js"></script>
+    <script src="scripts/floating-bg.js"></script>
+    <script src="scripts/stickers.js"></script>
+    <script src="scripts/section-music.js"></script>
+    <script src="scripts/test.js"></script>
+    <script src="scripts/password.js"></script>
+    <script src="scripts/sounds.js"></script>
+    <script src="scripts/shop.js"></script>
+</body>
+</html> 
