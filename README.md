@@ -3,7 +3,7 @@ Simple Valentine's day gift‑card website that I vibe coded for my gf.<br>
 Go to website - [justkesha.github.io/vd-2026](https://justkesha.github.io/vd-2026/)
 
 > [!NOTE]
-> For big screen only.
+> For big screen only. Russian only.
 
 > [!WARNING]
 > Instead of adding image files directly to the repo,<br>
