@@ -48,7 +48,7 @@ const SHOP_CONFIG = {
         {
             id: 223423423,
             name: "Бургер Комбо",
-            description: "Я сам готовлю и приношу",
+            description: "  ",
             price: 100,
             rarity: 2,
         },
@@ -56,7 +56,7 @@ const SHOP_CONFIG = {
         {   
             id: 42352453,
             name: "Романтический Ужин",
-            description: "Я готовлю любое блюдо на твой выбор",
+            description: "Готовлю любое блюдо на твой выбор",
             price: 250,
             rarity: 3,
         },
