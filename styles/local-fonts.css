@@ -1,0 +1,38 @@
+/* Jost */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('../fonts/Jost/Jost-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 100 900;
+  src: url('../fonts/Jost/Jost-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+/* Rubik Marker Hatch */
+@font-face {
+  font-family: 'Rubik Marker Hatch';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Rubik_Marker_Hatch/RubikMarkerHatch-Regular.ttf') format('truetype');
+}
+
+/* Shantell Sans */
+@font-face {
+  font-family: 'Shantell Sans';
+  font-style: normal;
+  font-weight: 300 800;
+  src: url('../fonts/Shantell_Sans/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf') format('truetype');
+}
+
+/* Tiny5 */
+@font-face {
+  font-family: 'Tiny5';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Tiny5/Tiny5-Regular.ttf') format('truetype');
+}

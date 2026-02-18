@@ -127,9 +127,9 @@ function createCouponElement(coupon) {
     const priceBtn = document.createElement('div');
     priceBtn.className = 'coupon-price-btn';
     if(coupon.price > 0) {
-        priceBtn.innerHTML = `${coupon.price} <img class="emoji coin" src="https://media.tenor.com/Vl6iJkR2IzMAAAAi/memecoin.gif" alt="emoji">`;
+        priceBtn.innerHTML = `${coupon.price} <img class="emoji coin" src="images/memecoin.gif" alt="emoji">`;
     } else
-        priceBtn.innerHTML = `${coupon.price ? 'BONUS +'+Math.abs(coupon.price) : 'FREE'} <img class="emoji coin" src="https://media.tenor.com/l6BNQyeZ1e8AAAAi/bits-8bits.gif" alt="emoji">`;
+        priceBtn.innerHTML = `${coupon.price ? 'BONUS +'+Math.abs(coupon.price) : 'FREE'} <img class="emoji coin" src="images/bits-8bits.gif" alt="emoji">`;
     priceBtn.dataset.price = coupon.price;
 
     // Обработчик покупки/продажи
@@ -155,7 +155,7 @@ function togglePurchase(card, coupon, priceBtn) {
         purchasedCoupons.delete(coupon.id);
         card.classList.remove('purchased');
         priceBtn.classList.remove('purchased');
-        priceBtn.innerHTML = `${coupon.price > 0 ? coupon.price : (coupon.price ? 'BONUS +'+Math.abs(coupon.price) : 'FREE')} <img class="emoji coin" src="https://media.tenor.com/NBbD5GXWKzgAAAAi/bits-8bits.gif" alt="emoji">`;
+        priceBtn.innerHTML = `${coupon.price > 0 ? coupon.price : (coupon.price ? 'BONUS +'+Math.abs(coupon.price) : 'FREE')} <img class="emoji coin" src="images/bits-8bits.gif" alt="emoji">`;
         updateMoneyCounter(currentMoney + coupon.price);
         playSound('coins.mp3', 0.5)
     } else {
@@ -164,7 +164,7 @@ function togglePurchase(card, coupon, priceBtn) {
             purchasedCoupons.add(coupon.id);
             card.classList.add('purchased');
             priceBtn.classList.add('purchased');
-            priceBtn.innerHTML = `Продать за ${coupon.price}<img class="emoji coin" src="https://media.tenor.com/Vl6iJkR2IzMAAAAi/memecoin.gif" alt="emoji">`;
+            priceBtn.innerHTML = `Продать за ${coupon.price}<img class="emoji coin" src="images/memecoin.gif" alt="emoji">`;
             updateMoneyCounter(currentMoney - coupon.price);
             playSound('purches.mp3', 0.5)
         }

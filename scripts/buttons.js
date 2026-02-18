@@ -24,7 +24,7 @@ if (noBtn) {
         "Почему? (>﹏<)",
         "Последний шанс (ㆆ_ㆆ)",
 
-        '(｡•̀ ⤙ •́ ｡ꐦ) <img class="emoji" src="https://media.tenor.com/hUoAqAmBM7cAAAAi/fuck-you-screw-you.gif" alt="emoji">'
+        '(｡•̀ ⤙ •́ ｡ꐦ) <img class="emoji" src="images/fuck-you-screw-you.gif" alt="emoji">'
     ];
     const MAX_NO_CLICKS = NO_TEXT_SEQUENCE.length-1;
     const SHRINK_FACTOR = 0.95;
@@ -51,7 +51,7 @@ if (noBtn) {
             const buttonGroup = document.querySelector('.button-group');
             if (!buttonGroup.querySelector('.indicator-emoji')) {
                 const img = document.createElement('img');
-                img.src = 'https://media.tenor.com/tixwR4wXew0AAAAj/right-right-point.gif';
+                img.src = 'images/right-right-point.gif';
                 img.alt = 'indicator';
                 img.classList.add('emoji', 'indicator-emoji');
                 buttonGroup.insertBefore(img, yesBtn);

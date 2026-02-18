@@ -12,36 +12,36 @@ const FLOATING_CONFIG = {
 
         // statement
         1: [
-            'https://media.tenor.com/ZKBDtqe2rkwAAAAj/flowers-cherryblossom-pink-gif-png-cute.gif',
-            'https://media.tenor.com/ZKBDtqe2rkwAAAAj/flowers-cherryblossom-pink-gif-png-cute.gif',
-            'https://media.tenor.com/tFnBhoYzJsIAAAAj/butterflypink.gif',
-            'https://media.tenor.com/c5y9ppir6cYAAAAj/loverlyu-pink.gif',
+            'images/flowers-cherryblossom-pink-gif-png-cute.gif',
+            'images/flowers-cherryblossom-pink-gif-png-cute.gif',
+            'images/butterflypink.gif',
+            'images/loverlyu-pink.gif',
         ],
 
         // asking to do test
-        2: ['https://media.tenor.com/6YfOeUIZLlYAAAAj/emoji-durr.gif'],
+        2: ['images/emoji-durr-2.gif'],
 
         // test 1
         3: [
-            'https://media.tenor.com/mAQPhz72wAwAAAAj/pacman.gif',
-            'https://media.tenor.com/JFjyMnr-BGAAAAAi/cat-cat-sniff.gif',
-            'https://media.tenor.com/qFuH6cOQ-8kAAAAi/3-cat.gif',
-            'https://media.tenor.com/JSE4vg7qHg4AAAAi/8bit-pixelart.gif',
+            'images/pacman.gif',
+            'images/cat-cat-sniff.gif',
+            'images/3-cat.gif',
+            'images/8bit-pixelart.gif',
         ],
         // test 2
         4: [
-            'https://media.tenor.com/lcfEqa5B0hIAAAAj/chad-emoji-gigachad.gif',
-            'https://media.tenor.com/6YfOeUIZLlYAAAAj/emoji-durr.gif',
-            'https://media.tenor.com/yJU_snJGthsAAAAj/pleading-emoji-discord.gif',
-            'https://media.tenor.com/ZD12jmQYQ9IAAAAj/emoji-tiktok-emoji.gif',
-            'https://media.tenor.com/d-Q59dYMh9QAAAAj/emoji-tiktok-emoji.gif',
-            'https://media.tenor.com/KoozdUVBZkcAAAAj/emoji-durr.gif',
-            'https://media.tenor.com/wTvhlU6Pwb4AAAAj/durr-durr-emoji.gif',
-            'https://media.tenor.com/waNve2z4oJcAAAAj/emoji-drool.gif',
-            'https://media.tenor.com/_VKqE3BnX_sAAAAj/emoji-drool.gif',
+            'images/chad-emoji-gigachad.gif',
+            'images/emoji-durr.gif',
+            'images/pleading-emoji-discord.gif',
+            'images/emoji-tiktok-emoji.gif',
+            'images/emoji-tiktok-emoji.gif',
+            'images/emoji-durr-2.gif',
+            'images/durr-durr-emoji.gif',
+            'images/emoji-drool-2.gif',
+            'images/emoji-drool-3.gif',
         ],
 
-        5: ['https://media.tenor.com/ZKBDtqe2rkwAAAAj/flowers-cherryblossom-pink-gif-png-cute.gif'],
+        5: ['images/flowers-cherryblossom-pink-gif-png-cute.gif'],
     }
 };
 

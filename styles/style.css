@@ -788,9 +788,6 @@ p {
     border-color: #ffb347;
 }
 
-/* Pixel font для счётчика денег */
-@import url('https://fonts.googleapis.com/css2?family=Tiny5&family=Oi&display=swap');
-
 .pixel-font {
     font-family: "Tiny5", sans-serif;
     font-size: 2rem;
