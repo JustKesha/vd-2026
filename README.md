@@ -6,6 +6,7 @@ Go to website - [justkesha.github.io/vd-2026](https://justkesha.github.io/vd-202
 > For big screen only. Russian only.
 
 > [!WARNING]
-> Instead of adding image files directly to the repo,<br>
+> ~~Instead of adding image files directly to the repo,<br>
 > I link them using tenor, discord & pinterest.<br><br>
-> So after a while some images might stop showing.
+> So after a while some images might stop showing.<br>~~
+> Changed in [e516bdf](commit/e516bdfd48dbaef6bc12d2fad81731c41ab6ebc9).
